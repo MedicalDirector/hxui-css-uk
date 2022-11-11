@@ -91,8 +91,8 @@
   // }
 
   &.is-active {
-    background-color: rgba(0, 0, 0, 0.04);
-    color: $hx-nav-link-active-color;
+    background-color: $hx-color-primary;
+    color: $hx-color-primary-invert;
 
     // border: 1px solid $hx-color-gray-lighter;
 
