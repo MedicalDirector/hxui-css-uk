@@ -430,7 +430,7 @@ $hx-navbar-item-padding: 0.5rem 0.75rem !default;
 $hx-nav-disabled-link-color: $hx-color-gray-lightest;
 $hx-nav-disabled-link-hover-color: $hx-color-gray-lightest;
 $hx-nav-link-hover-color: rgba(0, 0, 0, 0.02);
-$hx-nav-link-active-color: $hx-color-green-light;
+$hx-nav-link-active-color: $hx-color-primary;
 $hx-nav-link-color: $hx-color-gray;
 $hx-nav-link-font-size: $hx-font-size-sm;
 $hx-nav-link-font-weight: $hx-font-weight-bolder;
@@ -443,10 +443,10 @@ $hx-dropdown-divider-bg: $hx-border-color !default;
 
 $hx-dropdown-link-color: $hx-color-gray !default;
 $hx-dropdown-link-hover-color: #fff !default;
-$hx-dropdown-link-hover-bg: $hx-color-green-light !default;
+$hx-dropdown-link-hover-bg: $hx-color-primary !default;
 
 $hx-dropdown-link-active-color: #fff !default;
-$hx-dropdown-link-active-bg: $hx-color-green-light !default;
+$hx-dropdown-link-active-bg: $hx-color-primary !default;
 
 $hx-dropdown-link-disabled-color: $hx-color-gray-lighter !default;
 
