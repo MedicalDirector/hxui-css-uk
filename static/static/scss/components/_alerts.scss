@@ -34,7 +34,7 @@
     background-color: $hx-color-primary;
     color: $hx-color-white;
     .#{$namespace}-icon {
-      color: rgba(0, 0, 0, 0.3);
+      color: $hx-color-white;
     }
   }
 
@@ -116,7 +116,7 @@
 
     &.is-warning {
       background-color: tint($hx-color-warning, 85%);
-      color: shade($hx-color-warning, 10%);
+      color: #BF4300;
 
       a {
         color: shade($hx-color-warning, 10%);

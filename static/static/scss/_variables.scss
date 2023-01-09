@@ -37,7 +37,7 @@ $hx-color-blue-lightest: hsl(200, 54%, 65%) !default;
 $hx-color-green: hsl(164, 96%, 21%) !default;
 $hx-color-green-light: hsl(155, 48%, 49%) !default;
 $hx-color-green-lighter: hsl(153, 42%, 61%) !default;
-$hx-color-green-lightest: hsl(148, 39%, 72%) !default;
+$hx-color-green-lightest: hsl(148, 38%, 72%) !default;
 
 // Oranges
 $hx-color-orange: hsl(22, 87%, 53%) !default;
@@ -58,7 +58,7 @@ $hx-color-teal: hsl(193, 66%, 61%) !default;
 $hx-color-pink: hsl(349, 100%, 67%) !default;
 
 // Primary
-$hx-color-primary: $hx-color-green-light !default;
+$hx-color-primary: hsl(157, 48%, 35%) !default;
 
 // Accent
 $hx-color-accent: $hx-color-blue !default;
@@ -73,11 +73,11 @@ $hx-color-black: hsl(0, 0%, 0%) !default;
 $hx-color-gray-dark: hsl(200, 3%, 17%) !default;
 $hx-color-gray: hsl(0, 0%, 23%) !default;
 $hx-color-gray-light: hsl(15, 2%, 38%) !default;
-$hx-color-gray-lighter: hsl(340, 1%, 68%) !default;
+$hx-color-gray-lighter: hsl(0, 1%, 68%) !default;
 $hx-color-gray-lightest: hsl(240, 1%, 88%) !default;
 
 // Other colors
-$hx-color-success: $hx-color-green-light !default;
+$hx-color-success: hsl(157, 48%, 35%) !default;
 $hx-color-info: $hx-color-blue !default;
 $hx-color-warning: $hx-color-orange-light !default;
 $hx-color-caution: $hx-color-yellow-light !default;
@@ -103,8 +103,8 @@ $hx-color-red-invert: findColorInvert($hx-color-red) !default;
 
 $hx-color-primary-invert: $hx-color-green-invert !default;
 $hx-color-info-invert: $hx-color-info-invert !default;
-$hx-color-success-invert: $hx-color-green-invert !default;
-$hx-color-warning-invert: $hx-color-orange-invert !default;
+$hx-color-success-invert: findColorInvert($hx-color-success) !default;
+$hx-color-warning-invert: hsl(200, 3%, 17%) !default;
 $hx-color-caution-invert: $hx-color-yellow-invert !default;
 $hx-color-danger-invert: $hx-color-red-invert !default;
 $hx-color-light-invert: $hx-color-dark !default;
@@ -359,7 +359,7 @@ $hx-state-info-text: #31708f !default;
 $hx-state-info-bg: #d9edf7 !default;
 $hx-state-info-border-color: darken($hx-state-info-bg, 7%) !default;
 
-$hx-state-warning-text: #8a6d3b !default;
+$hx-state-warning-text: #BF4300 !default;
 $hx-state-warning-bg: #fcf8e3 !default;
 $hx-mark-bg: $hx-state-warning-bg !default;
 $hx-state-warning-border-color: darken($hx-state-warning-bg, 5%) !default;
@@ -430,7 +430,7 @@ $hx-navbar-item-padding: 0.5rem 0.75rem !default;
 $hx-nav-disabled-link-color: $hx-color-gray-lightest;
 $hx-nav-disabled-link-hover-color: $hx-color-gray-lightest;
 $hx-nav-link-hover-color: rgba(0, 0, 0, 0.02);
-$hx-nav-link-active-color: $hx-color-green-light;
+$hx-nav-link-active-color: $hx-color-primary;
 $hx-nav-link-color: $hx-color-gray;
 $hx-nav-link-font-size: $hx-font-size-sm;
 $hx-nav-link-font-weight: $hx-font-weight-bolder;
@@ -443,10 +443,10 @@ $hx-dropdown-divider-bg: $hx-border-color !default;
 
 $hx-dropdown-link-color: $hx-color-gray !default;
 $hx-dropdown-link-hover-color: #fff !default;
-$hx-dropdown-link-hover-bg: $hx-color-green-light !default;
+$hx-dropdown-link-hover-bg: $hx-color-primary !default;
 
 $hx-dropdown-link-active-color: #fff !default;
-$hx-dropdown-link-active-bg: $hx-color-green-light !default;
+$hx-dropdown-link-active-bg: $hx-color-primary !default;
 
 $hx-dropdown-link-disabled-color: $hx-color-gray-lighter !default;
 

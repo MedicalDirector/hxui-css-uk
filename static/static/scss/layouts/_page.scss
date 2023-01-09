@@ -28,7 +28,7 @@
   }
 
   &.has-blue-gradient {
-    @include radial-gradient(top, $hx-color-green-light, $hx-color-blue);
+    @include radial-gradient(top, $hx-color-primary, $hx-color-blue);
 
     color: #fff;
   }
